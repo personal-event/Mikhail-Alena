@@ -1,4 +1,47 @@
 .section-3 {
-  background-color: #d8c4aa;
-  padding: 60px;
+  height: 100vh;
+
+  background-color: #efe6d8;
+  padding: 60px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__upper-text {
+    font-family: 'Times';
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+  }
+
+  &__title {
+    font-family: 'Cormorant', Arial, sans-serif;
+  }
+
+  // .section-3__card
+
+  &__card {
+    width: min(90%, 600px);
+    height: 100%;
+    padding: 70px;
+    background-color: #fff;
+    border-radius: 20px;
+  }
+
+  // .section-3__item
+
+  &__item {
+  }
+}
+
+.item {
+  // .item__time
+
+  &__time {
+  }
+
+  // .item__text
+
+  &__text {
+  }
 }
